@@ -1,0 +1,11 @@
+diff -up cadius-master/Src/Dc_Prodos.c.omv~ cadius-master/Src/Dc_Prodos.c
+--- cadius-master/Src/Dc_Prodos.c.omv~	2026-06-20 14:38:32.155379425 +0200
++++ cadius-master/Src/Dc_Prodos.c	2026-06-20 14:39:48.235856969 +0200
+@@ -5,6 +5,7 @@
+ /**********************************************************************/
+ /*  Auteur : Olivier ZARDINI  *  Brutal Deluxe Software  *  Dec 2011  */
+ /**********************************************************************/
++#define _XOPEN_SOURCE 1000
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
